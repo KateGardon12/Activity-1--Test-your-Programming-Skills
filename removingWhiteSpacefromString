@@ -1,0 +1,24 @@
+package KateJenniferC.Gardon;
+
+
+
+public class removingWhiteSpacefromString {
+ 
+ public static void main(String[] args)  {
+ 
+
+  
+ String i = " Remove the White space from String";
+ System.out.println("Sentence with whitespaces: " + i);
+
+
+i = i.replaceAll("\\s","");
+System.out.println("Sentence after :" + i);
+
+     }
+  
+  }
+  
+  
+
+  
