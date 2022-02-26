@@ -1,0 +1,36 @@
+package KateJenniferC.Gardon;
+
+import java.util.Arrays;
+
+public class checkingwhetherTwoStringsareanagram {
+
+  public static void main(String[] args) {
+ String x = "KATE JENNIFER";
+ String y = "REFINNEJ ETAK";
+ 
+ char example1[] = x.toCharArray();
+ char example2[] = y.toCharArray();
+ 
+ Arrays.sort(example1);
+ Arrays.sort(example2);
+ 
+ Boolean result = Arrays.equals(example1,example2);
+ 
+ if(result == true){
+   
+   System.out.println("Strings are Anagram");
+     }
+ else{
+   
+   System.out.println("Strings are not Anagram");
+ }
+ 
+  }
+
+
+ 
+ 
+ 
+  }
+
+
